@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pinn_headless"
+version = "0.1.0"
+description = ""
+authors = ["Nahuel Defossé <nahuel.defosse@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+invoke = "^1.7.1"
+paramiko = "^2.11.0"
+rich = "^12.4.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+snoop = "^0.4.1"
+hunter = "^3.4.3"
+pdbpp = "^0.10.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
